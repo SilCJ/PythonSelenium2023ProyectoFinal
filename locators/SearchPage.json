@@ -1,0 +1,13 @@
+{
+  "url": "https://laboratorio.qaminds.com/",
+  "locators": {
+    "search_new": {
+      "by": "XPATH",
+      "value": "//a[contains(@href, 'product&product_id=30')]"
+    },
+    "search_btn": {
+      "by": "XPATH",
+      "value": "//*[span=\"Add to Cart\"]"
+    }
+  }
+}

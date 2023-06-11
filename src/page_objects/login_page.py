@@ -18,3 +18,8 @@ class LoginPage(BasePage):
 
     def get_warning_message(self):
         return self.element("warning_message").wait_visible().text
+
+    def forgotpassword(self, email: str):
+        logging.info(f"Login with recovery password {email}")
+        self.element("email_input").wait_clickable().send_keys(email)
+        self.element("login_btn").wait_clickable().click()

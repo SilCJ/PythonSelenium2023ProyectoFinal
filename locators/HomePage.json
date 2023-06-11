@@ -8,6 +8,10 @@
     "search_btn": {
       "by": "XPATH",
       "value": "//div[@id=\"search\"]//button"
-    }
+    },
+    "text_search": {
+      "by": "XPATH",
+      "value": "//*[@class=\"caption\"]//a"
+    },
   }
 }

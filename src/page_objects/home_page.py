@@ -14,3 +14,5 @@ class HomePage(BasePage):
         logging.info(f"Search {value}")
         self.element("search_input").wait_clickable().send_keys(value)
         self.element("search_btn").wait_clickable().click()
+
+
