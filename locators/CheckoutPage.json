@@ -1,0 +1,57 @@
+{
+  "url": "https://laboratorio.qaminds.com/",
+  "locators": {
+    "search_btn": {
+      "by": "XPATH",
+      "value": "//div[@id=\"search\"]//button"
+    },
+    "product_btn": {
+      "by": "XPATH",
+      "value": "//a[contains(@href, 'category&path=24')]"
+    },
+    "buy_btn": {
+      "by": "XPATH",
+      "value": "//button[@onclick=\"cart.add('28', '1');\"]"
+    },
+    "checkout_btn": {
+      "by": "XPATH",
+      "value": "//*[contains(@title, 'Checkout')]"
+    },
+    "firstname_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-firstname\"]"
+    },
+    "lastname_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-lastname\"]"
+    },
+    "company_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-company\"]"
+    },
+    "address_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-address-1\"]"
+    },
+    "city_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-city\"]"
+    },
+    "postcode_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-postcode\"]"
+    },
+    "country_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-country\"]"
+    },
+    "state_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"input-payment-zone\"]"
+    },
+    "continue_input": {
+      "by": "XPATH",
+      "value": "//*[@id=\"button-payment-address\"]"
+    }
+  }
+}

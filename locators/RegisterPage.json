@@ -1,5 +1,5 @@
 {
-  "url": "https://laboratorio.qaminds.com/index.php?route=account/register",
+  "url": "https://laboratorio.qaminds.com/index.php?route=checkout/checkout",
   "locators": {
     "firstname_input": {
       "by": "XPATH",
